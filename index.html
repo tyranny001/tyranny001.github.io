@@ -133,7 +133,7 @@
                     <div class="space-y-4 font-mono text-sm">
                         <div class="flex justify-between"><span class="text-gray-500">Degree:</span> <span class="text-white">B.E. CSE</span></div>
                         <div class="flex justify-between"><span class="text-gray-500">Institution:</span> <span class="text-white">RMD Engineering College</span></div>
-                        <div class="flex justify-between"><span class="text-gray-500">Expected_Grad:</span> <span class="text-cyan-400">2026</span></div>
+                        <div class="flex justify-between"><span class="text-gray-500">Status:</span> <span class="text-cyan-400">Graduated (2026)</span></div>
                         <div class="flex justify-between"><span class="text-gray-500">CGPA:</span> <span class="text-white">7.03</span></div>
                         <div class="flex justify-between"><span class="text-gray-500">Location:</span> <span class="text-white">Chennai / Tirupati</span></div>
                         <div class="flex justify-between"><span class="text-gray-500">Language_Metric:</span> <span class="text-white">IELTS Band 7.0</span></div>
@@ -264,22 +264,25 @@
         <div class="max-w-7xl mx-auto reveal">
             <div class="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-gray-800 pb-6">
                 <h2 class="text-3xl font-bold text-white font-mono border-l-4 border-cyan-400 pl-4 mb-4 md:mb-0">./system_architectures</h2>
-                <span class="text-gray-500 font-mono text-sm"><i class="fa-solid fa-folder-tree mr-2"></i>3 Files Found</span>
+                <span class="text-gray-500 font-mono text-sm"><i class="fa-solid fa-folder-tree mr-2"></i>3 Repositories Parsed</span>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
-                <!-- Proj 1 -->
+                <!-- Proj 1: HIDS -->
                 <div class="neon-card bg-gray-900 border border-gray-800 rounded-lg flex flex-col justify-between group">
                     <div class="p-6 border-b border-gray-800">
                         <div class="flex justify-between items-start mb-4">
-                            <i class="fa-solid fa-microchip text-2xl text-cyan-500"></i>
-                            <span class="text-[10px] uppercase tracking-widest text-cyan-400 bg-cyan-900/30 px-2 py-1 rounded">Execution: In_Progress</span>
+                            <i class="fa-solid fa-microchip text-2xl text-cyan-500 group-hover:text-cyan-400 transition-colors"></i>
+                            <span class="text-[10px] uppercase tracking-widest text-gray-400 bg-gray-800 px-2 py-1 rounded">Execution: Completed</span>
                         </div>
                         <h3 class="text-lg font-bold text-white mb-3">Hybrid Network IDS</h3>
-                        <p class="text-gray-400 text-sm font-light leading-relaxed">
+                        <p class="text-gray-400 text-sm font-light leading-relaxed mb-6">
                             Enterprise pipeline integrating signature detection with Machine Learning (Isolation Forest). Employs SHAP-driven explainability matrices to decode backend security engine alerts.
                         </p>
+                        <a href="https://github.com/tyranny001/Hybrid-IDS-System" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-cyan-400 hover:text-fuchsia-400 transition-colors text-sm font-mono border border-cyan-500/30 bg-cyan-900/10 px-3 py-1.5 rounded hover:border-fuchsia-500/50">
+                            <i class="fa-brands fa-github"></i> source_code
+                        </a>
                     </div>
                     <div class="p-4 bg-gray-950/50 flex flex-wrap gap-2 text-xs font-mono text-gray-500 rounded-b-lg">
                         <span class="px-2 py-1 bg-gray-900 rounded">Python</span>
@@ -288,17 +291,20 @@
                     </div>
                 </div>
 
-                <!-- Proj 2 -->
+                <!-- Proj 2: TTP Parser -->
                 <div class="neon-card bg-gray-900 border border-gray-800 rounded-lg flex flex-col justify-between group">
                     <div class="p-6 border-b border-gray-800">
                         <div class="flex justify-between items-start mb-4">
-                            <i class="fa-solid fa-spider text-2xl text-fuchsia-500"></i>
-                            <span class="text-[10px] uppercase tracking-widest text-gray-500 bg-gray-800 px-2 py-1 rounded">Execution: Terminated</span>
+                            <i class="fa-solid fa-spider text-2xl text-fuchsia-500 group-hover:text-fuchsia-400 transition-colors"></i>
+                            <span class="text-[10px] uppercase tracking-widest text-gray-400 bg-gray-800 px-2 py-1 rounded">Execution: Completed</span>
                         </div>
                         <h3 class="text-lg font-bold text-white mb-3">Threat-Report TTP Parser</h3>
-                        <p class="text-gray-400 text-sm font-light leading-relaxed">
+                        <p class="text-gray-400 text-sm font-light leading-relaxed mb-6">
                             Automation engine built to scan unstructured cyber threat intelligence, parsing technical texts, and mapping target IOCs directly onto the MITRE ATT&CK Framework.
                         </p>
+                        <a href="https://github.com/tyranny001/threat-report-ttp-parser" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-cyan-400 hover:text-fuchsia-400 transition-colors text-sm font-mono border border-cyan-500/30 bg-cyan-900/10 px-3 py-1.5 rounded hover:border-fuchsia-500/50">
+                            <i class="fa-brands fa-github"></i> source_code
+                        </a>
                     </div>
                     <div class="p-4 bg-gray-950/50 flex flex-wrap gap-2 text-xs font-mono text-gray-500 rounded-b-lg">
                         <span class="px-2 py-1 bg-gray-900 rounded">Python</span>
@@ -307,17 +313,20 @@
                     </div>
                 </div>
 
-                <!-- Proj 3 -->
+                <!-- Proj 3: Crypto Engine -->
                 <div class="neon-card bg-gray-900 border border-gray-800 rounded-lg flex flex-col justify-between group">
                     <div class="p-6 border-b border-gray-800">
                         <div class="flex justify-between items-start mb-4">
                             <i class="fa-solid fa-lock text-2xl text-gray-400 group-hover:text-cyan-400 transition-colors"></i>
-                            <span class="text-[10px] uppercase tracking-widest text-gray-500 bg-gray-800 px-2 py-1 rounded">Execution: Terminated</span>
+                            <span class="text-[10px] uppercase tracking-widest text-gray-400 bg-gray-800 px-2 py-1 rounded">Execution: Completed</span>
                         </div>
                         <h3 class="text-lg font-bold text-white mb-3">Crypto Engine CLI</h3>
-                        <p class="text-gray-400 text-sm font-light leading-relaxed">
+                        <p class="text-gray-400 text-sm font-light leading-relaxed mb-6">
                             Command-line interface deploying modular cryptographic frameworks for symmetric text processing, securing local data transfers and confidentiality channels.
                         </p>
+                        <a href="https://github.com/tyranny001/basic-encryption-and-decryption-tools" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-cyan-400 hover:text-fuchsia-400 transition-colors text-sm font-mono border border-cyan-500/30 bg-cyan-900/10 px-3 py-1.5 rounded hover:border-fuchsia-500/50">
+                            <i class="fa-brands fa-github"></i> source_code
+                        </a>
                     </div>
                     <div class="p-4 bg-gray-950/50 flex flex-wrap gap-2 text-xs font-mono text-gray-500 rounded-b-lg">
                         <span class="px-2 py-1 bg-gray-900 rounded">Python</span>
